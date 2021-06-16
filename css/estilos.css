@@ -5,6 +5,11 @@
     margin:0;
     padding: 0;
 }
+
+body{
+    background: #eee;
+}
+
 header{
     color:aqua;
     text-align: center;
@@ -20,10 +25,15 @@ header{
     background-color: black;
 }
 
-nav a {
+.menu nav a {
     color: white;
     padding: 40px 10px;
     text-decoration: none;
+}
+
+.menu nav a:hover{
+    background: #202020;
+    transition: .3s;
 }
 
 .seleccionado{
@@ -38,15 +48,6 @@ section{
         padding: 15px;
 }
 
-.producto{
-    border: 1px black solid;
-    margin: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 20%;
-
-}
 
 footer{
     clear:both;
@@ -80,4 +81,35 @@ footer{
 
 .imgDerecha {
     float:right;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 4rem 1rem;
+}
+
+.producto{
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 0px #ccc;
+    background: #fff;
+}
+
+.producto img{
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.descripcion{
+    padding: 1rem 2rem;
+}
+
+.producto h3{
+    margin-bottom: 0.5rem;
+}
+
+.producto p{
+    font-size: 14px;
 }
