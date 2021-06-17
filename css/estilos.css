@@ -45,9 +45,7 @@ h1{
     background-color: #202020;
 }
 
-section{
-    width: 90%;
-    
+section{  
     color: black;
     box-shadow: 1px 0 4px rgba(0,0,0, 0.2);
     margin-bottom: 15px;
