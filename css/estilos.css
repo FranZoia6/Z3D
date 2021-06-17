@@ -17,6 +17,11 @@ header{
     
 }
 
+h1{
+    text-align: center;
+    font-size: 7em;
+}
+
 
 .menu{
     display: flex;
@@ -37,15 +42,16 @@ header{
 }
 
 .seleccionado{
-    background-color: #2962ff;
+    background-color: #202020;
 }
 
 section{
-        color: black;
-        border-radius: 5px;
-        box-shadow: 1px 0 4px rgba(0,0,0, 0.2);
-        margin-bottom: 15px;
-        padding: 15px;
+    width: 90%;
+    
+    color: black;
+    box-shadow: 1px 0 4px rgba(0,0,0, 0.2);
+    margin-bottom: 15px;
+    padding: 15px;
 }
 
 
