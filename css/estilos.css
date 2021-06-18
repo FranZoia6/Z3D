@@ -97,6 +97,21 @@ footer{
     padding: 4rem 1rem;
 }
 
+.gridInicio{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    padding: 4rem 1rem;
+}
+
+.tarjetaInico{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #000;
+    background: #90caf9;
+
+}
+
 .producto{
     border-radius: 5px;
     box-shadow: 0px 1px 1px 0px #ccc;
@@ -119,3 +134,12 @@ footer{
 .producto p{
     font-size: 14px;
 }
+
+.tarjetaInico p{
+    padding: 9px;
+  
+}
+.tarjetaInico h3{
+    padding: 9px;
+}
+
