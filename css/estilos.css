@@ -7,7 +7,8 @@
 }
 
 body{
-    background: #eee;
+    /*background: #eee;*/
+    background: linear-gradient(to bottom, #1D73FB, #06E5EB);
 }
 
 header{
@@ -85,6 +86,7 @@ footer{
 
 .imgDerecha {
     float:right;
+    margin: 5%;
 }
 
 .grid{
